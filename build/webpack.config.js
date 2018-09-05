@@ -11,10 +11,6 @@ module.exports = {
         filename: '[name].js'  
 
     },
-    devServer: {
-        historyApiFallback: true,
-        overlay: true
-    },
     plugins: [
     	new htmlWebpackPlugin({
     		filename: 'index.html',

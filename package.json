@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "webpack-dev-server --open --hot --mode=development --progress --color",
-    "build": "webpack --progress --hide-modules"
+    "dev": "node build/dev-server.js",
+    "build": "node build/build.js"
   },
   "author": "ganfubin 1209711358@qq.com",
   "license": "ISC",
