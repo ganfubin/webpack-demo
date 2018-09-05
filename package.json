@@ -6,7 +6,7 @@
     "dev": "webpack-dev-server --open --hot --mode=development --progress --color",
     "build": "webpack --progress --hide-modules"
   },
-  "author": "",
+  "author": "ganfubin 1209711358@qq.com",
   "license": "ISC",
   "dependencies": {
     "babel-polyfill": "^6.26.0",
