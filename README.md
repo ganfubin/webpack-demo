@@ -15,10 +15,9 @@ const VueLoaderPlugin = require('vue-loader/lib/plugin');
         }
   }
 },
+```
 *[vue-loader](https://github.com/vuejs/vue-loader)
 *[babel-loader](https://github.com/babel/babel-loader)
-
-```
 
 ### node-webpack
 > node版本编译
