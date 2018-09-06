@@ -16,8 +16,8 @@ const VueLoaderPlugin = require('vue-loader/lib/plugin');
   }
 },
 ```
-*[vue-loader](https://github.com/vuejs/vue-loader)
-*[babel-loader](https://github.com/babel/babel-loader)
+* [vue-loader](https://github.com/vuejs/vue-loader)
+* [babel-loader](https://github.com/babel/babel-loader)
 
 ### node-webpack
 > node版本编译
@@ -41,7 +41,7 @@ app.listen(8080);
 
 ```
 
-*[webpack-dev-middleware](https://github.com/webpack/webpack-dev-middleware)
+* [webpack-dev-middleware](https://github.com/webpack/webpack-dev-middleware)
 
 
 > 未完待续.....
