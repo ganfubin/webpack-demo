@@ -7,10 +7,11 @@ let compiler = webpack(webpackConfig);
 
 let devMiddleware = require('webpack-dev-middleware')(compiler, {
     publicPath: webpackConfig.output.publicPath,
-    quiet: true
 });
+let hotMiddleware = require('webpack-dev-middleware')(compiler);
 
 app.use(devMiddleware);
+app.use(hotMiddleware);
 
 console.log('> Listening at http://localhost:8080 \n');
 app.listen(8080);

@@ -42,6 +42,7 @@ app.listen(8080);
 ```
 
 * [webpack-dev-middleware](https://github.com/webpack/webpack-dev-middleware)
+* [webpack-dev-middleware](https://github.com/webpack/webpack-dev-middleware)
 
 
 > 未完待续.....
