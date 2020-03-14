@@ -57,12 +57,7 @@ module.exports = {
     extensions: ['.js', '.json', '.vue'],
     alias: {
       'vue': 'vue/dist/vue.js',
-      '@': resolve('../src'),
-      '@assets': resolve('../src/assets'),
-      '@components': resolve('../src/components'),
-      '@common': resolve('../src/r-common-module'),
-      '@store': resolve('../src/store'),
-      '@views': resolve('../src/views')
+      '@': resolve('../src')
     }
   },
   plugins,
